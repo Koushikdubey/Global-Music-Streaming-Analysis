@@ -1,11 +1,11 @@
 # Global Music Streaming Listener Preferences | Python EDA
 
-## 📌 Project Overview
+##  Project Overview
 This project explores global music-streaming listener preferences using Python and Exploratory Data Analysis (EDA). It examines listener demographics, streaming-platform usage, favourite music genres, listening times, subscription types, and most-played artists to identify patterns in the available dataset.
 
 The objective is to transform raw data into meaningful insights that support data-driven understanding of music-listening behaviour.
 
-## 🎯 Business Objectives
+##  Business Objectives
 - Analyse the age distribution of listeners.
 - Identify the most frequently used streaming platforms.
 - Explore the distribution of listeners' favourite music genres.
@@ -13,7 +13,7 @@ The objective is to transform raw data into meaningful insights that support dat
 - Examine the relationship between most-played artists and subscription types.
 - Compare music-genre preferences across different age groups.
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Python** – Data analysis and exploratory analysis
 - **Pandas** – Data manipulation and analysis
 - **NumPy** – Numerical computing
@@ -21,7 +21,7 @@ The objective is to transform raw data into meaningful insights that support dat
 - **Seaborn** – Statistical visualisation
 - **Jupyter Notebook / Google Colab** – Development environment
 
-## 📂 Dataset Overview
+##  Dataset Overview
 The project uses a dataset named `Global_Music_Streaming_Listener_Preferences.csv`.
 
 The analysis references the following fields:
@@ -39,7 +39,7 @@ The dataset is used to explore listener demographics, platform preferences, musi
 
 **Note:** The CSV dataset is required to execute the notebook. Ensure that the dataset is available at the file path specified in the notebook. Share the dataset publicly only if its licence or source permits redistribution.
 
-## 🔍 Project Workflow
+##  Project Workflow
 
 ### 1. Data Loading & Inspection
 - Load the dataset using Pandas.
@@ -60,7 +60,7 @@ Analyse individual variables through visualisations:
 - Visualise genre preferences across age groups using a heatmap.
 - Group records by subscription type to examine the availability of streaming-minute data.
 
-## 📊 Key Visualisations
+##  Key Visualisations
 
 | Visualisation | Purpose |
 |---|---|
@@ -71,12 +71,12 @@ Analyse individual variables through visualisations:
 | Artist vs. Subscription Type | Compare artist counts across subscription categories |
 | Age Group vs. Genre Heatmap | Identify genre-count patterns across age groups |
 
-## 💡 Business Relevance
+##  Business Relevance
 This analysis demonstrates how exploratory data analysis can help organise and interpret customer-preference data. Similar analytical approaches can support audience segmentation, customer behaviour analysis, and preference-based business decisions.
 
 The project focuses on descriptive patterns in the available dataset; it does not establish causal relationships or prove that the results represent all music-streaming users.
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Option 1: Google Colab
 1. Open the `.ipynb` notebook in Google Colab.
@@ -97,14 +97,14 @@ The project focuses on descriptive patterns in the available dataset; it does no
 4. Update the dataset path in the notebook if required.
 5. Launch Jupyter Notebook and execute the cells.
 
-## ⚠️ Limitations
+##  Limitations
 - The analysis depends on the quality and coverage of the source dataset.
 - Missing values and duplicates are inspected, but not every potential data-quality issue is addressed through a comprehensive cleaning pipeline.
 - The subscription-type analysis counts non-null streaming-minute records; it does not calculate average or total streaming minutes.
 - Results are descriptive and should not be interpreted as causal findings.
 - Specific business conclusions should be added only after validating the notebook's actual outputs.
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 - Exploratory Data Analysis (EDA)
 - Data Cleaning and Quality Checks
 - Python Programming
@@ -115,8 +115,7 @@ The project focuses on descriptive patterns in the available dataset; it does no
 - Grouping and Aggregation
 - Analytical Thinking and Business Interpretation
 
-## 👨‍💻 Author
-**Koushik Dubey**
+
 
 This project is part of my Data Analytics portfolio and demonstrates my ability to explore datasets, analyse patterns, create visualisations, and communicate findings using Python.
 
